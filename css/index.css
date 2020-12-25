@@ -16,7 +16,7 @@ img{
 }
 
 .logo-container{
-
+    width: 200px; 
 }
 
 .title-container{
@@ -53,7 +53,6 @@ img{
     grid-gap: 100px;
 
     margin-top: 100px;
-    
 }
 
 .blog-container{
@@ -78,7 +77,7 @@ footer{
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1500px){
     .blogposts-container{
 
         grid-template-columns: 1fr 1fr;
