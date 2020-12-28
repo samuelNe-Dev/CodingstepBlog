@@ -1,0 +1,15 @@
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container a:hover {
+    color: darkred;
+    transition: color 0.5s;
+}
